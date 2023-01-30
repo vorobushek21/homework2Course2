@@ -1,10 +1,10 @@
 public class Car {
-    String brand;
-    String model;
-    double engineVolume;
-    String color;
-    int year;
-    String country;
+    private String brand;
+    private String model;
+    private double engineVolume;
+    private String color;
+    private int year;
+    private String country;
     public Car(String brand, String model, double engineVolume, String color, int year, String country) {
         if (brand == null || brand.isEmpty()){
             brand = "default";
