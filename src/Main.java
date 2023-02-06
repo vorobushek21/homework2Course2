@@ -29,7 +29,7 @@ public class Main {
 
         Bus bus1 = new Bus("Hyundai", "County", 2010, "Южная Корея", "пурпурный", 80);
         System.out.println(bus1);
-        Bus bus2 = new Bus("", "", 1970, "США", "черный", 320);
+        Bus bus2 = new Bus("", "", 0, "США", "черный", 320);
         System.out.println(bus2);
         Bus bus3= new Bus("Hyundai", "H350", 2015, "Германия", "красный", 120);
         System.out.println(bus3);
