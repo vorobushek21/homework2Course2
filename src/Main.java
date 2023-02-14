@@ -17,7 +17,7 @@ public class Main {
         buses[3] = new Bus("Mercedes", "Classic", 0, new DriverD("Артем", true, 5));
 
         Truck[] trucks = new Truck[4];
-        trucks[0] = new Truck("Камаз", "444", 5, new DriverC("Петр", true, 8));
+        trucks[0] = new Truck("Камаз", "444", 5, new DriverC("Антон", true, 8));
         trucks[1] = new Truck("Маз", "555", 2.1, new DriverC("Павел", true, 9));
         trucks[2] = new Truck("Mercedes", "222", 5, new DriverC("Игорь", true, 14));
         trucks[3] = new Truck("УАЗ", "111", 3, new DriverC("Илья", true, 15));
